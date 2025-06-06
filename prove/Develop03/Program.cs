@@ -13,6 +13,7 @@ class Program
         // While loop to call the different classes and loop the program until the user decides to quit
         while (_continue)
         {
+            // Display selection menu
             Console.WriteLine("Please select one of the following choices (1-4 for a scripture, q to quit):");
             Console.WriteLine("1. John 14:6 Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.");
             Console.WriteLine("2. 1 Nephi 3:7-9 And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord" +
