@@ -31,12 +31,12 @@ class Program
                 // Pass the reference and scripture for John 14:6 to the Reference and Scripture class
                 case 1:
                     Reference john = new("John", 14, 6);
-                    Scripture johnScript = new("Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.");
+                    Scripture johnScript = new(john, "Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.");
                     
                     // While loop to loop through the hiding process
                     while (_continue)
                     {
-                        john.DisplayReference();
+                        // john.DisplayReference();
                         johnScript.DisplayScripture();
                         Console.WriteLine("\nPlease press enter to continue, press 'q' to quit:");
 
@@ -52,7 +52,7 @@ class Program
                 // Pass the reference and scripture for 1 Nephi 3:7-9 to the Reference and Scripture class
                 case 2:
                     Reference nephi = new("1 Nephi", 3, 7, 9);
-                    Scripture nephiScript = new("And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord " +
+                    Scripture nephiScript = new(nephi, "And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord " +
                     "hath commanded, for I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may " +
                     "accomplish the thing which he commandeth them. And it came to pass that when my father had heard these words he was exceedingly glad, for he " +
                     "knew that I had been blessed of the Lord. And I, Nephi, and my brethren took our journey in the wilderness, with our tents, to go up to the land of " +
@@ -61,7 +61,7 @@ class Program
                     // While loop to loop through the hiding process
                     while (_continue)
                     {
-                        nephi.DisplayReference();
+                        // nephi.DisplayReference();
                         nephiScript.DisplayScripture();
                         Console.WriteLine("\nPlease press enter to continue, press 'q' to quit:");
 
@@ -77,12 +77,12 @@ class Program
                 // Pass the reference and scripture for Proverbs 16:3 to the Reference and Scripture class
                 case 3:
                     Reference proverbs = new("Proverbs", 16, 3);
-                    Scripture proverbsSript = new("Commit to the Lord whatever you do, and your plans will succeed");
+                    Scripture proverbsSript = new(proverbs, "Commit to the Lord whatever you do, and your plans will succeed");
                     
                     // While loop to loop through the hiding process
                     while (_continue)
                     {
-                        proverbs.DisplayReference();
+                        // proverbs.DisplayReference();
                         proverbsSript.DisplayScripture();
                         Console.WriteLine("\nPlease press enter to continue, press 'q' to quit:");
 
@@ -104,12 +104,12 @@ class Program
                         // Pass the reference and scripture for John 14:6 to the Reference and Scripture class
                         case 1:
                             Reference johnRand = new("John", 14, 6);
-                            Scripture johnScriptRand = new("Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.");
+                            Scripture johnScriptRand = new(johnRand, "Jesus saith unto him, I am the way, the truth, and the life: no man cometh unto the Father, but by me.");
                             
                             // While loop to loop through the hiding process
                             while (_continue)
                             {
-                                johnRand.DisplayReference();
+                                // johnRand.DisplayReference();
                                 johnScriptRand.DisplayScripture();
                                 Console.WriteLine("\nPlease press enter to continue, press 'q' to quit:");
 
@@ -125,7 +125,7 @@ class Program
                         // Pass the reference and scripture for 1 Nephi 3:7-9 to the Reference and Scripture class
                         case 2:
                             Reference nephiRand = new("1 Nephi", 3, 7, 9);
-                            Scripture nephiScriptRand = new("And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord " +
+                            Scripture nephiScriptRand = new(nephiRand, "And it came to pass that I, Nephi, said unto my father: I will go and do the things which the Lord " +
                             "hath commanded, for I know that the Lord giveth no commandments unto the children of men, save he shall prepare a way for them that they may " +
                             "accomplish the thing which he commandeth them. And it came to pass that when my father had heard these words he was exceedingly glad, for he " +
                             "knew that I had been blessed of the Lord. And I, Nephi, and my brethren took our journey in the wilderness, with our tents, to go up to the land of " +
@@ -134,7 +134,7 @@ class Program
                             // While loop to loop through the hiding process
                             while (_continue)
                             {
-                                nephiRand.DisplayReference();
+                                // nephiRand.DisplayReference();
                                 nephiScriptRand.DisplayScripture();
                                 Console.WriteLine("\nPlease press enter to continue, press 'q' to quit:");
 
@@ -151,12 +151,12 @@ class Program
                         // Pass the reference and scripture for Proverbs 16:3 to the Reference and Scripture class
                         case 3:
                             Reference proverbsRand = new("Proverbs", 16, 3);
-                            Scripture proverbsSriptRand = new("Commit to the Lord whatever you do, and your plans will succeed");
+                            Scripture proverbsSriptRand = new(proverbsRand, "Commit to the Lord whatever you do, and your plans will succeed");
                             
                             // While loop to loop through the hiding process
                             while (_continue)
                             {
-                                proverbsRand.DisplayReference();
+                                // proverbsRand.DisplayReference();
                                 proverbsSriptRand.DisplayScripture();
                                 Console.WriteLine("\nPlease press enter to continue, press 'q' to quit:");
 

@@ -2,12 +2,16 @@ using System;
 
 public class Scripture
 {
+
+    // Reference object
+    Reference _ref;
     // Initialize variables
     private List<Word> _words;
 
     // Create a constructor that turns a string into a list of class objects
-    public Scripture(string text)
+    public Scripture(Reference objRef, string text)
     {
+        _ref = objRef;
         // Create new instance of _words list of class objects
         _words = new List<Word>();
 
@@ -25,6 +29,8 @@ public class Scripture
     // Display each word object in sequence seemlessly on a single line, hiding words as it goes
     public void DisplayScripture()
     {
+        // Display the reference
+        _ref.DisplayReference();
         // Randomly hides a word
         Random randomGenerator = new Random();
         int hidden = randomGenerator.Next(0, _words.Count());
