@@ -11,7 +11,9 @@ public class Scripture
     // Create a constructor that turns a string into a list of class objects
     public Scripture(Reference objRef, string text)
     {
+        // Privatize the reference object
         _ref = objRef;
+        
         // Create new instance of _words list of class objects
         _words = new List<Word>();
 
