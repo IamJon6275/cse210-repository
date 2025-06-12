@@ -8,7 +8,7 @@ class Program
         bool _continue = true;
         
         // Greet the user
-        Console.WriteLine("Welcome to the Journal Program!");
+        Console.WriteLine("Welcome to the Scripture Memorizer Program!");
 
         // While loop to call the different classes and loop the program until the user decides to quit
         while (_continue)
@@ -176,23 +176,6 @@ class Program
                     _continue = false;
                     break;
             }
-
-
-            // // While loop to loop through the hiding process
-            // while (_continue)
-            // {
-            //     r.DisplayReference();
-            //     s.DisplayScripture();
-            //     Console.WriteLine("\nPlease press enter to continue, press 'q' to quit:");
-
-            //     string response = Console.ReadLine();
-            //     if (response == "q")
-            //         {
-            //             _continue = false;
-            //         }
-            //     Console.Clear();
-            // }
-                
         }
     }
 }
